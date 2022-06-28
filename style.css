@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+
+}
+/*          nav bbar                  */
+
+
+#mrr
+
+{
+    margin-right: 6px;
+}
+#logo_nav{
+    width: 20%;
+    /* border-radius: 10px; */
+    margin-left: 10px;
+    display: inline;
+}
+#sss{
+    width: 25%;
+}
+
+
+
+
+
+
+/*..........................home section ....................................................*/
+
+
+.home-banner{
+    background: url(/img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home_btn{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+/*..........................DOcs seection stars here.......................................*/
+
+
+.card22{
+    height: 100%;
+    width: 100%;
+}
+#btnw{
+    width: 100%;
+}
+#dc_img1{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+#dc_img{
+    display: block;
+    width:100%;
+    margin: 10px auto;
+   
+    
+}
+.circule{
+    height: 52px;
+    width: 52px;
+    background: darkblue;
+    border-radius: 50%;
+}
+.mtt{
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+
+}
+.dd{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*................................... team sectioon stars here .................................*/
+.team
+{
+    background: #FFF3E2;
+    padding-top: 50px;
+}
+#t_w{
+    display: flex;
+    margin-left:5% ;
+}
+.round_img{
+
+    display: block;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top:-15% ;
+}
+
+.sana{
+    display: block;
+    width: 19%;
+    border-radius: 50%;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top:-15% ;
+    height: 30%;
+
+
+}
+.pcenter{
+text-align: center;
+}
+/*...................................looking for more section........................*/
+.lfm{
+    background: #f5f5f5!important;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.ptt{
+    padding-top: 10px;
+}
+
+
+
+
+/*      .......... start of section looking for appoiment*/
+.lfa{
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#p1{
+    position: absolute;
+  height: 20%;
+  width: auto;
+}
+.p2{
+    position: relative;
+    width: 38%;
+
+}
+#para{
+    margin-top: 10%;
+    margin-right: 0;
+    padding: 0;
+}
+.b{
+    color: darkblue;
+    font-weight: bold;
+}
+
+/*..........................five star section............................*/
+.five_s{
+    background:#f5f5f5!important; 
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+}
+#p3{
+    
+    width: 60%;
+    margin-top: 20%;
+}
+.round1_img{
+    display: block;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: auto ;
+    margin-right: auto;
+    /* margin-bottom:-50% ; */
+}
+.c1{
+border-radius: 10px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+.b2{
+border-radius: 10px;
+box-shadow: 0 15px 25px rgba(170, 167, 167, 0.6);
+}
+
+/*........................recommendation section.............................*/
+.rem{
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* phoneeeee.......................................................*/
+
+.phone{
+    background:#f5f5f5!important;   
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.img_f{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+#moblie{
+    position:absolute;
+    height: 41%;
+    /* width: 40%; */
+}
+#iphone{
+    position: relative;
+    width: 21%;
+    border-radius: 6px;
+}
+/*............................docs in different cities.....................................*/
+
+
+.didc{
+    background: white;
+    padding: 40px  ;
+}
+/* .center{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+} */
+.pll{
+    padding-left: 30px;
+}
+.docs li {
+    list-style-type: none;
+}
+.docs li a{
+   
+    text-decoration: none;
+    color: gray;
+
+}
+
+
+
+
+
+/*       ..................................start of cities section.....................*/
+
+
+.city{
+
+    background:#222!important;
+    padding-top: 40px;
+    border-bottom: 1px solid #fff;
+}
+li{
+    list-style-type: none;
+}
+.cities li a{ 
+text-decoration:none;
+    margin-right: 6px;
+    padding-left: 0;
+    color: white;
+}
+.city h5{
+    color: white;
+}
+
+
+/*                      footer starts here                */
+.foot{
+    background: #222!important;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+/*..................................media quriuy.........................*/
+
+@media screen and (max-width: 480px){
+    .home_btn{
+        width: 100%;
+    }
+    #btnw{
+        width: 100%;
+        font-size: 12px;
+    }
+   
+    #p2{
+        
+        width: 58%;
+        
+    }
+    #para{
+        margin-top: 20%
+    }
+    #p3{
+        display: block;
+        width: 60%;
+        margin: auto    ;
+    }
+    #pic2{
+
+        height:30%;
+    }
+  
+    #pic {
+        position: relative;
+        width: 46%;
+        /* margin-top: 72%; */
+    }
+
+    .fl{
+        margin-top: 20%;
+    }
+  
+}
+@media (min-width:500px) and (max-width:800px){
+
+
+.div{
+    margin-top: 25%;
+}    
+#p3{
+    display: block;
+    width: 60%;
+    margin: auto    ;
+}
+#pic {
+    position: relative;
+    width: 18%;
+    border-radius: 6px;
+ 
+}
+#pic2 {
+    position: absolute;
+    height: 28%;
+}
+.p2{
+    width: 19%;
+}
+}
+
+
+@media (min-width:810px) and (max-width:1100px)
+{
+    .div{
+        margin-top: 20%;
+    }
+    #p2{
+        width: 23%;
+    }
+    
+    #pic {
+        width: 28%;
+    }
+    
+    #pic2 {
+        height: 60%;
+    } 
+    .p2{
+        width: 24%;
+    }   
+}
+
+
+
+
+
+@media (min-width:810px) and (max-width:1200px)
+{
+    .div{
+        margin-top: 20%;
+    }
+    #p2{
+        width: 17%;
+    }
+
+    #pic2{
+
+        height: 60%;
+    }
+    #pic3{
+        width: 12%;
+    }
+    .p2{
+        width: 14%;
+    }
+}
+@media (min-width:1210px) and (max-width:1600px)
+{
+    .p2{
+        width: 17%;
+    }
+    #pic{
+        width: 10%;
+    }
+    #pic2 {
+        position: absolute;
+        height: 32%;
+    }
+    .p2 {
+        width: 10%;
+    }    
+}
+    
+@media (min-width:1770px) and (max-width:3000px){
+    #p2{
+        width: 15%;
+    }
+
+    #pic2{
+        height: 60%;
+    }
+    #pic3{
+        width: 23%;
+    }
+
+    
+
+    #pic {
+        position: relative;
+        width: 20%;
+        border-radius: 6px;
+    }
+    .p2 {
+        width: 9%;
+    }
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:321px) and (max-width:380px){
+
+    #pic{
+        width: 40%;
+    }
+    #pic2{
+        height: 30%;
+    }
+    .p2 {
+        width: 39%;
+    }
+    
+}
+
+@media (min-width:380px) and (max-width:450px)
+{
+    #pic{
+
+        width: 40%;
+    }
+    #pic2{
+        height: 35%;
+    }
+    .p2{
+        width: 35%;
+    }
+}

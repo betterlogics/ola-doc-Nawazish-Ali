@@ -1,0 +1,139 @@
+/*...............................................media quris jusy for two moblies*/
+
+@media (min-width:10px) and (max-width:330px){
+
+  .div{
+    margin-top: 60%;
+  }
+  #p1{
+    height: 40%;
+  }
+  .p2{
+    width: 62%;
+  }
+
+  .img_f{
+    margin-top: 60%;
+  }
+  #iphone{
+    width: 64%;
+  }
+}
+
+@media (min-width:340px) and (max-width:390px)
+{
+
+    .div{
+        margin-top: 60%;
+    }
+    #p1{
+        height: 40%;
+      }
+      .p2{
+        width: 52%;
+      }
+
+      .img_f{
+        margin-top: 30%;
+      }
+      #iphone{
+        width: 53%;
+      }
+    }
+
+    @media (min-width:400px) and (max-width:480px)
+    {
+
+        .div{
+            margin-top: 60%;
+        }
+        #p1{
+            height: 50%;
+          }
+          .p2{
+            width: 56%;
+          }
+          .img_f{
+            margin-top: 25%;
+          }
+          #iphone{
+            width: 46%;
+          }
+    }
+
+    @media (min-width:481px) and (max-width:800px)
+    {
+        .div{
+            margin-top: 25%;
+        }
+        #p1{
+            height: 60%;
+          }
+          .p2{
+            width: 38%;
+          }
+          .img_f{
+            margin-top: 15%;
+          }
+          #iphone{
+            width: 26%;
+          }
+    }
+
+    @media (min-width:801px) and (max-width:1200px){
+        .div{
+            margin-top: 15%;
+        }
+        #p1{
+            height: 60%;
+          }
+          .p2{
+            width: 28%;
+          }
+          .img_f{
+            margin-top: 10%;
+          }
+          #iphone{
+            width: 19%;
+          }
+        }
+
+        @media (min-width:1301px) and (max-width:1440px)
+        {
+            .div{
+                margin-top: 10%;
+            }
+            #p1{
+                height: 50%;
+              }
+              .p2{
+                width: 17%;
+              } 
+              .img_f{
+                margin-top: 5%;
+              }
+              #iphone{
+                width: 13.5%;
+              }
+            
+        }
+
+        @media (min-width:1450px) and (max-width:3000px){
+
+            .div{
+                margin-top: 10%;
+            }
+            #p1{
+                height: 50%;
+              }
+              .p2{
+                width: 17%;
+              } 
+              .img_f{
+                margin-top: 5%;
+              }
+              #iphone{
+                width: 13.5%;
+              }
+        }
+        

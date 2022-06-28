@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="moblie.css">
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg_color">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="sss" href="#">
+        <img src="/img/logo.jpeg" id="logo_nav" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link nav_black dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Doctors
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+
+
+            <li class="nav-item">
+              <a class="nav-link nav_black" href="#">Doctors</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link nav_black dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Hospitals
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link nav_black" href="#">Hospitals</a>
+            </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav_black" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Lab $ Diagostics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link nav_black" href="#">Lab & Diagnostics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav_black" href="#">Health Blog</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-outline-secondary btn-sm  " id="mrr">Login/signup</button>
+            <button class="btn btn-primary btn-lg" type="submit">04212345678</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--   ...............home section starts here.............................................-->
+  <section class=" home-banner py-sm-3 py-4 text-white text-md-center">
+    <h1 style="text-align:center ;"> Find and book <span style="color: #ff9e15; ;">best doctors</span> near you</h1>
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-lg-5 p-0">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Lahore" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-light" type="button" id="button-addon2">Detact</button>
+          </div>
+        </div>
+        <div class="col-lg-6 p-0">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control"
+              placeholder="Search for doctors,hospitals,specialists,services,diseases" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-warning" type="button" id="button-addon2">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary btn-lg home_btn "> 25,000+ doctors</button>
+  </section>
+  <section class="docs">
+    <div class="container mt-4">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <div class="card mb-3 card22" style="max-width:100% ;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/img/ju.svg" id="dc_img1" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Emwell Care</h5>
+                  <p class="card-text">Video Consultations with Top Specialists in Rs. 500</p>
+                  <button class="btn btn-warning btn-small text-white" id="btnw">Book Appoinement
+                    <strong>></strong></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card mb-3 card22" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/img/a.svg" id="dc_img" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Doctors online now</h5>
+                  <p class="card-text">Instant Video Consultation with Top Doctors </p>
+                  <button class="btn btn-primary "> start consulting ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container justify-content-center my-5">
+      <h2 style="text-align:center; font-size: 24px; ">Find doctors by health concern</h2>
+
+      <div class="row mtt  special-icon-holder od-text-primary m-0 mx-md-row px-3 px-md-0 pb-md-2 pt-md-3 ">
+
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>Skin Specialist</span>
+        </div>
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>
+            General Surgeon
+          </span>
+        </div>
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>Gerneral Physician</span>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="row mtt  special-icon-holder od-text-primary m-0 mx-md-row px-3 px-md-0 pb-md-2 pt-md-3 ">
+
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>Skin Specialist</span>
+        </div>
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>Child Specialist</span>
+        </div>
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>Orthopedic Surgeon</span>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="row mtt  special-icon-holder od-text-primary m-0 mx-md-row px-3 px-md-0 pb-md-2 pt-md-3 ">
+
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>Skin Specialist</span>
+        </div>
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>Child Specialist</span>
+        </div>
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span>Orthopedic Surgeon</span>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--.................team section starts here ...................................................-->
+
+  <section class="team">
+    <div id="t_w">
+      <img src="/img/ww.svg" alt="">
+      <h5 style="padding-top:10px ; padding-left: 10px;">Platinum Doctors</h5>
+    </div>
+    <p style="margin-left:5% ;">Doctors with exceptional services & patient satisfaction
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-md-11 col-lg-6 col-xl-4 col-xxl-3">
+          <h4 class="text-danger text-uppercase">Testimonial</h4>
+          <h1 class="font-cursive fw-normal mb-5">Our Awesome <br />Clients </h1>
+        </div> -->
+        <div class="col-xxl-9">
+          <div class="position-relative offset-9 offset-sm-10 offset-lg-11 mb-3"><a
+              class="carousel-control-prev carousel-icon z-index-2" href="#carouselExampleDark" role="button"
+              data-bs-slide="prev"><span class="carousel-control-prev-icon " aria-hidden="true"></span><span
+                class="visually-hidden">Previous</span></a><a class="carousel-control-next carousel-icon z-index-2"
+              href="#carouselExampleDark" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"
+                aria-hidden="true"></span><span class="visually-hidden">Next</span></a></div>
+          <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/ali.jpeg" class="round_img" alt="">
+                        <p class="pcenter p-0 m-0"> Dr.Ali</p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experince of 2 years </p> -->
+                        <p class="pcenter p-0 m-0 "> Gerneral Physician (RMP) </p>
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>470</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p class="text-center">100%</p>
+                          </div>
+                        </div>
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/muneeb.jpeg" class="round_img" alt="">
+                        <p class="pcenter p-0 m-0 "> Dr.Muneeb </p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experinnce of 2 years</p> -->
+                        <p class="pcenter p-0 m-0 "> Gerneral Surgeon </p>
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>370</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p>100%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/sheraz.jpeg" class="round_img sana"  alt="">
+                        <p class="pcenter p-0 m-0 ">DR.Sheraz</p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experince of 2 years </p> -->
+                        <p class="pcenter p-0 m-0 "> Gerneral Physician (RMP) </p>
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>470</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p>100%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/sana shahzad.jpeg" class="round_img sana" alt="">
+                        <p class="pcenter p-0 m-0 "> Dr.sana shahzad</p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experince of 2 years </p> -->
+                        <p class="pcenter p-0 m-0 ">Gerneral Physician (RMP) </p>
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>370</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p>100%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/muneeb.jpeg" class=" round_img" alt="">
+                        <p class="pcenter p-0 m-0 "> Dr.Muneeb </p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experince of 2 years </p> -->
+                        <p class="pcenter p-0 m-0 "> Gerneral Surgeon </p>
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>470</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p>100%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/ali.jpeg" class="round_img" alt="">
+                        <p class="pcenter p-0 m-0 "> Dr.Ali </p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experince of 2 years </p> -->
+                        <p class="pcenter p-0 m-0 "> Gerneral Physician (RMP) </p>
+                        <!-- <p class="mb-0 px-3 px-md-2 px-xxl-3">An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct</p> -->
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>470</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p>100%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/sheraz.jpeg" class="round_img sana" alt="">
+                        <p class="pcenter p-0 m-0 "> Dr.sheraz </p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experince of 2 years </p> -->
+                        <p class="pcenter p-0 m-0 "> Gerneral Physician (RMP) </p>
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>470</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p>100%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/ali.jpeg" class="round_img" alt="">
+                        <p class="pcenter p-0 m-0 ">Dr.Ali</p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experince of 2 years </p> -->
+                        <p class="pcenter p-0 m-0 "> Gerneral Physician (RMP) </p>
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>370</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p>100%</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <img src="/img/muneeb.jpeg" class="round_img" alt="">
+
+                        <p class="pcenter p-0 m-0 "> Dr.muneeb </p>
+                        <!-- <p class="pcenter p-0 m-0 "> Experince of 2 years </p> -->
+                        <p class="pcenter p-0 m-0 "> Gerneral Surgeon</p>
+                        <div class="row">
+                          <div class="col-6">
+                            <p>patient Reviews</p>
+                            <p>470</p>
+                          </div>
+                          <div class="col-6">
+                            <p>satisfaction rate</p>
+
+                            <p>100%</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--...............end of section.........................................-->
+
+
+
+
+
+
+
+
+  <!--   start of looking for more section..............    -->
+  <section class="lfm">
+    <h5 class="text-center">Looking for more?</h5>
+    <div class="container">
+      <div class="row p-5">
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span class="ptt">Book Medical Test</span>
+        </div>
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span class="ptt">Read Health Articels</span>
+        </div>
+        <div class="col-4 dd">
+
+
+          <div class="circule">
+
+          </div>
+          <span class="ptt">Ask A Question</span>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ................. start of section looking for appoiment.................................-->
+  <section class="lfa">
+    <h4 class="text-center">Book an appointments in 3 easy steps</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="div">
+            <img src="/img/mobile-img-2.png" id="p1" alt="">
+            <img src="/img/easystep3.gif" class="p2" alt="">
+
+          </div>
+        </div>
+        <div class="col-6" id="para">
+          <p><span class="b">Search</span> for doctors by specialty, hospital, service or disease</p>
+          <p><span class="b">Select</span> based on Experience, Fee or Rating</p>
+          <p><span class="b">Book</span>
+            a Confirmed Appointment within Seconds
+          </p>
+          <button class="btn btn-primary ">Find a Doctor</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--...................................five star section starts here .........................-->
+  <section class="five_s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 ">
+          <h5>Are you a five-star doctor?</h5>
+          <p>Sign-up to reach millions of patients</p>
+          <div class="pt-3">Get more appointments through online bookings</div>
+          <p>Create and view patient records from anywhere</p>
+          <p>Manage your schedule efficiently</p>
+          <button class="btn btn-primary btn-lg mt-4">join now</button>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <img src="/img/phones-removebg-preview.png" id="p3" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--....................recommendation section................................-->
+
+  <section class="rem">
+    <h5 class="text-center">over 200,000 user recommendations</h5>
+    <div class="container">
+      <div class="row" id="ww">
+        <div class="col-xxl-9">
+          <div class="position-relative offset-9 offset-sm-10 offset-lg-11 mb-3"><a
+              class="carousel-control-prev carousel-icon z-index-2" href="#carouselExampleDark" role="button"
+              data-bs-slide="prev"><span class="carousel-control-prev-icon " aria-hidden="true"></span><span
+                class="visually-hidden">Previous</span></a><a class="carousel-control-next carousel-icon z-index-2"
+              href="#carouselExampleDark" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"
+                aria-hidden="true"></span><span class="visually-hidden">Next</span></a></div>
+          <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary c1">
+                      <div class="card-body my-3">
+                        <p>Great platform, very efficient and works really well on both phone and web. I think this is
+                          the most easiest way of booking appointments in Pakistan as it has made the whole process much
+                          more efficient.</p>
+                        <img src="/img/160-1579518076_Dr_Azhar_Nasim_Nephrologist.jpg" class="round1_img" alt="">
+
+
+
+
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary b2">
+                      <div class="card-body my-3">
+                        <p>A very helpful app for booking appointments and searching for the required doctors. Has made
+                          my life a lot easy. I would strongly recommend this to all
+                        </p>
+                        <img src="/img/160-1554699023_faisal-iqbal.jpg" class="round1_img" alt="">
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <p> Literally the best website to book the appointments online for Doctors. The service is
+                          great, helpline guys are very cooperative and understanding. And I don't have to hassle
+                          through different hospitals anymore now.</p>
+                        <img src="/img/160-1560155379_asma-zulfiqar.jpg" class="round1_img" alt="">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <p>Literally the best website to book the appointments online for Doctors. The service is great,
+                          helpline guys are very cooperative and understanding. And I don't have to hassle through
+                          different hospitals anymore now.</p>
+                        <img src="/img/160-1554699023_faisal-iqbal.jpg" class="round1_img" alt="">
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <p>Literally the best website to book the appointments online for Doctors. The service is great,
+                          helpline guys are very cooperative and understanding. And I don't have to hassle through
+                          different hospitals anymore now.</p>
+                        <img src="/img/160-1560155379_asma-zulfiqar.jpg" class=" round1_img" alt="">
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        Literally the best website to book the appointments online for Doctors. The service is great,
+                        helpline guys are very cooperative and understanding. And I don't have to hassle through
+                        different hospitals anymore now.
+                        <img src="/img/160-1579518076_Dr_Azhar_Nasim_Nephrologist.jpg" class="round1_img" alt="">
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <p>Literally the best website to book the appointments online for Doctors. The service is great,
+                          helpline guys are very cooperative and understanding. And I don't have to hassle through
+                          different hospitals anymore now.</p>
+                        <img src="/img/160-1579518076_Dr_Azhar_Nasim_Nephrologist.jpg" class="round1_img" alt="">
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        <p>Literally the best website to book the appointments online for Doctors. The service is great,
+                          helpline guys are very cooperative and understanding. And I don't have to hassle through
+                          different hospitals anymore now.</p>
+                        <img src="/img/160-1554699023_faisal-iqbal.jpg" class="round1_img" alt="">
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="card card-span h-100 shadow-primary">
+                      <div class="card-body my-3">
+                        Literally the best website to book the appointments online for Doctors. The service is great,
+                        helpline guys are very cooperative and understanding. And I don't have to hassle through
+                        different hospitals anymore now.
+                        <img src="/img/160-1560155379_asma-zulfiqar.jpg" class="round1_img" alt="">
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="phone">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+        <div class="img_f ">
+          <img src="/img/mobile-img-2.png" id="moblie" alt="">
+          <img src="/img/Picture1.png" id="iphone" alt="">
+        </div>
+      </div>
+        <div class="col-6 mt-5 mr-0 p-0" >
+          <h5>Download the app</h5>
+          <p>Search for doctors, specialities, treatments, hospitals and services. Find doctor reviews and book appointment online, all using the Emwell app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--     ............. doctors i diifferernt city section............-->
+  <section class="didc">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="center">
+          <h5 class="pll">Doctors in Lahore</h5>
+          <ul class="docs">
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+          </ul>
+        </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="center">
+          <h5 class="pll">Doctors in Karachi</h5>
+          <ul class="docs">
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+          </ul>
+        </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="center">
+          <h5 class="pll">Doctors in other cities </h5>
+          <ul class="docs">
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+          </ul>
+        </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="center">
+          <h5 class="pll">Doctors in Lahore</h5>
+          <ul class="docs">
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+            <li><a href="#">Best Dermatologist in Lahore</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--.......................end od section here...................................-->
+
+
+
+  <!--..............................start of cities section-->
+  <section class="city">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="center">
+          <h1><span style="color:darkblue ;">Emw</span><span style="color:yellow ;">ell</span>  </h1>
+          <p style="color:grey ;">Book appointments with the best Doctors and Specialists such as Gynecologists, Skin Specialists, Child Specialists, Surgeons, etc. Avail test services such as MRI, CT scan, Ultrasound, X-Ray, etc. and Online Doctor Video Consultations all across Pakistan conveniently</p>
+         <h5 style="color:white ; " class="pll">company</h5>
+          <ul class="cities">
+            <li><a href="#">About us</a> </li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy </a></li>
+            <li><a href="#">Privacy policy </a></li>
+            <li><a href="#">Privacy policy </a></li>
+
+          </ul>
+        </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="center">
+
+          
+         <h5 style="color:white ;"class="pll">Major cities </h5>
+          <ul class="cities">
+            <li><a href="#">About us </a></li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy </a></li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy</a> </li>
+            <li><a href="#">Privacy policy</a></li>
+
+          </ul>
+        </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="center">
+
+          
+         <h5 style="color:white ;"class="pll">Top Hospitals </h5>
+          <ul class="cities">
+            <li><a href="#">Doctors hospital </a></li>
+            <li><a href="#">National hospital</a> </li>
+            <li><a href="#">Ali Medical Centre</a> </li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital  </a></li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital</a> </li>
+
+          </ul>
+        </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="center">
+
+          
+         <h5 style="color:white ;"class="pll">Lab Tests </h5>
+          <ul class="cities">
+            <li><a href="#">Doctors hospital</a> </li>
+            <li><a href="#">National hospital</a> </li>
+            <li><a href="#">Ali Medical Centre</a> </li>
+            <li><a href="#">National hospital</a> </li>
+            <li><a href="#">National hospital </a> </li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital </a></li>
+            <li><a href="#">National hospital </a></li>
+
+          </ul>
+          <h5 style="color:white ;"class="pll"> More </h5>
+          <ul class="cities">
+            <li><a href="#">Health Blog</a></li>
+            <li><a href="#">Forum </a></li>
+            <li><a href="#">For Doctrs</a> </li>
+            </ul>
+                
+         <h5 style="color:white ;"class="pll">Get the Emwell app </h5>
+         <ul class="cities">
+           <li><a href="#"><button class="btn  btn-primary">Click me</button></a> </li>
+           <li><a href="#"><button class="btn  btn-primary mt-3">Install</button></a> </li>
+       
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg- col-sm-6">
+          <h5 >PMC verfied Doctors</h5>
+          <a href="" style="color:white ;">Authenic&update informations</a>
+
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h5>Money back gurantee</h5>
+         <p  style="color:white ;"> Authenic&update informations</p>
+
+        </div>
+        <div class="col-3">
+          <h5>Reliabl custormer support</h5>
+          <p  style="color:white ;"> Authenic&update informations</p>
+
+        </div>
+        <div class="col-3">
+          <h5>secure online payment</h5>
+          <p style="color:white ;"> Authenic&update informations</p>
+
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <!--...............footer stars here...................................-->
+
+  <section class="foot">
+    <footer>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <p style="color: white;">Copyright @ 2015 - 2022 <span style="color:#e18400!important;"> MediConnect Services, a subsidiary of MyDoctor Inc</span> - All Rights Reserved     
+
+              Reproduction of material from any Emwell.com pages without permission is strictly prohibited. </p>
+
+          </div>
+          <div class="col-lg-3">
+            <p style="color:white ;">contact with us </p>
+            <i class="fa-fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
